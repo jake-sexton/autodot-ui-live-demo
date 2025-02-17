@@ -19,7 +19,7 @@ test('get started link', async ({ page }) => {
 
 
 test('Jakes test', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+  await page.goto('https://playwright.dev1234/');
 
   // Click the get started link.
   await page.getByRole('link', { name: 'Get started' }).click();
